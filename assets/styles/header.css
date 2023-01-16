@@ -1,0 +1,12 @@
+.navbar{
+    font-family: BeaumarchaisC;
+    font-size: 1.5em;
+    color: white;
+}
+.navbar .logotype{
+    font-size: 1.6em;
+    margin-top: -10px;
+}
+.navbar .nav-link, .navbar .logotype .nav-link{
+    color: white;
+}

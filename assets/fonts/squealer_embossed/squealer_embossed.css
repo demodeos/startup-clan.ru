@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Squealer Embossed';
+	src: url('../fonts/squealer_embossed.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/squealer_embossed.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/squealer_embossed.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/squealer_embossed.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/squealer_embossed.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/squealer_embossed.svg#squealer_embossed') format('svg'); /* Chrome < 4, Legacy iOS */
+}

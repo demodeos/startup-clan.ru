@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Cloister Black Light';
+	src: url('../fonts/cloister_black_light.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/cloister_black_light.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/cloister_black_light.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/cloister_black_light.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/cloister_black_light.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/cloister_black_light.svg#cloister_black_light') format('svg'); /* Chrome < 4, Legacy iOS */
+}

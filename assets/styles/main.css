@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'BeaumarchaisC';
+    src: url('../fonts/beaumarchaisc/beaumarchaisc.woff2');
+}
+
+@font-face {
+    font-family: 'MS';
+    src: url('../fonts/MicrosoftSansSerif.woff2');
+}
+
+body{
+    background-color: black;
+    background-image: url("../images/background/main.jpg");
+    background-size: cover;
+
+}
+
+.default-background{
+    background: linear-gradient(45deg, #292929 25%, transparent 25%, transparent 75%, #292929 75%), linear-gradient(45deg, #292929 25%, transparent 25%, transparent 75%, #292929 75%) 0.1875em 0.1875em, radial-gradient(at 50% 0, #484847, #090909);
+    background-size: 0.375em 0.375em, 0.375em 0.375em, 100% 100%;
+    color: white;
+}
+main .content{
+    background: linear-gradient(45deg, #292929 25%, transparent 25%, transparent 75%, #292929 75%), linear-gradient(45deg, #292929 25%, transparent 25%, transparent 75%, #292929 75%) 0.1875em 0.1875em, radial-gradient(at 50% 0, #484847, #090909);
+    background-size: 0.375em 0.375em, 0.375em 0.375em, 100% 100%;
+    color: white;
+    min-height: 70vh;
+    border-radius: 20px;
+}

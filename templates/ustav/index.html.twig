@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Гильдия StartUP | Устав{% endblock %}
+
+{% block body %}
+    <h1>Устав гильдии.</h1>
+
+    <div class="container">
+        {{ ustav|raw }}
+    </div>
+
+    {% if is_granted('ROLE_MASTER') %}
+        <a href="{{ path('app_ustav_new') }}">Create new</a>
+    {% endif %}
+{% endblock %}

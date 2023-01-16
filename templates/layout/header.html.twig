@@ -1,0 +1,48 @@
+
+{#  #}
+
+    <nav class="navbar navbar-expand-lg sticky-xxl-top sticky-xl-top sticky-top">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent ">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 container justify-content-between">
+                        <li class="nav-item logotype">
+                            <a class="nav-link active" aria-current="page" href="{{ path('homepage') }}">StartUP</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" aria-current="page" href="#">Главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ path('app_ustav_index') }}">Устав</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Дипломатия
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Кос-лист</a></li>
+                                <li><a class="dropdown-item" href="#">Жалобы</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Контакты</a>
+                        </li>
+
+                        {% if app.user  %}
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                {{ app.user.username }}
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="{{ path('app_logout') }}">Выйти</a></li>
+                            </ul>
+                        </li>
+                        {% else %}
+                        <li class="nav-item">
+                                <a class="nav-link" href="{{ path('app_login') }}">Авторизация</a>
+                        </li>
+                        {% endif %}
+                    </ul>
+                </div>
+            </div>
+    </nav>

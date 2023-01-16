@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}New Ustav{% endblock %}
+
+{% block body %}
+    <h1>Create new Ustav</h1>
+
+    {{ include('ustav/_form.html.twig') }}
+
+    <a href="{{ path('app_ustav_index') }}">back to list</a>
+{% endblock %}

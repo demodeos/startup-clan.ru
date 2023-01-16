@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'BeaumarchaisC';
+	src: url('../fonts/beaumarchaisc.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/beaumarchaisc.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/beaumarchaisc.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/beaumarchaisc.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/beaumarchaisc.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/beaumarchaisc.svg#beaumarchaisc') format('svg'); /* Chrome < 4, Legacy iOS */
+}

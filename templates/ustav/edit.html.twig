@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Edit Ustav{% endblock %}
+
+{% block body %}
+    <h1>Edit Ustav</h1>
+
+    {{ include('ustav/_form.html.twig', {'button_label': 'Update'}) }}
+
+    <a href="{{ path('app_ustav_index') }}">back to list</a>
+
+    {{ include('ustav/_delete_form.html.twig') }}
+{% endblock %}
